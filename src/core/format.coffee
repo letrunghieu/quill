@@ -68,6 +68,14 @@ class Format
       exclude: 'bullet'
       parentTag: 'OL'
       tag: 'LI'
+      
+    header:
+      type: Format.types.LINE
+      tag: 'H3'
+      
+    quote:
+      type: Format.types.LINE
+      tag: 'BLOCKQUOTE'
 
 
   constructor: (, @config) ->
